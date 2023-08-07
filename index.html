@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
+    <title>DC Parent Portal</title>
+    <style>
+        .button-44 {
+            background: #e62143;
+            border-radius: 11px;
+            box-sizing: border-box;
+            color: #fff;
+            cursor: pointer;
+            display: flex;
+            font-family: Mija, -apple-system, BlinkMacSystemFont, Roboto, "Roboto Slab", "Droid Serif", "Segoe UI", system-ui, Arial, sans-serif;
+            font-size: 1.15em;
+            font-weight: 700;
+            justify-content: center;
+            line-height: 33.4929px;
+            padding: .8em 1em;
+            text-align: center;
+            text-decoration: none;
+            text-decoration-skip-ink: auto;
+            text-shadow: rgba(0, 0, 0, .3) 1px 1px 1px;
+            text-underline-offset: 1px;
+            transition: all .2s ease-in-out;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 100%;
+            word-break: break-word;
+            border: 0;
+        }
+
+        .button-44:active,
+        .button-44:focus {
+            border-bottom-style: none;
+            border-color: #dadada;
+            box-shadow: rgba(0, 0, 0, .3) 0 3px 3px inset;
+            outline: 0;
+        }
+
+        .button-44:hover {
+            border-bottom-style: none;
+            border-color: #dadada;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div style="display: flex; width: 100%; justify-content: center;">
+        <div style="width: 90%;">
+            <div style="display: flex; width: 100%; justify-content: center;">
+                <img style="padding: 15px; width: 50%;" src="./logo-dc.png">
+            </div>
+            <button  onclick="window.location.replace('./pickup.html')"  style="width: 100%;" class="button-44"><i style="margin-right: 5px;" class="bi bi-info-circle"></i>Pickup Information</button><br>
+            <button onclick="window.location.replace('discovercamp.com')" style="width: 100%;" class="button-44"><i style="margin-right: 5px;" class="bi bi-browser-chrome"></i> DiscoverCamp Website</button><br>
+            <button onclick="window.location.replace('./message.html')" style="width: 100%;" class="button-44"> <i style="margin-right: 5px;"class="bi bi-justify-left"></i> Message of the Day</button><br>
+            <button onclick="window.location.replace('https://www.youtube.com/@DiscoverCampNews')" style="width: 100%;" class="button-44"><i  style="margin-right: 5px;"class="bi bi-newspaper"></i> DC News</button><br>
+        </div>
+    </div>
+</body>
+
+</html>
